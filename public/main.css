@@ -1,0 +1,489 @@
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Arial, "微软雅黑";
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+body, p, form, input, button, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: hidden
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+input, textarea {
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  -webkit-appearance: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input, select, textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+a {
+  outline: 0;
+  cursor: pointer;
+  color: #666;
+}
+
+a:link, a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-touch-callout: none;
+}
+
+em, i {
+  font-style: normal;
+}
+
+li, ol {
+  list-style: none;
+}
+
+.clearfix::after {
+  clear: both;
+  height: 0;
+  font-size: 0;
+  display: block;
+  content: ' ';
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  color: #666;
+  background: #fff;
+}
+
+body>* {
+  box-sizing: border-box;
+}
+
+/*单行文本溢出显示省略号*/
+
+.text_splice {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*多行文本溢出显示省略号*/
+
+.more_text_splice {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.VideoList {
+  margin-bottom: 0.2rem;
+  display: inline;
+  position: relative;
+}
+
+.VideoList .item {
+  display: inline-block;
+  width: 48.5%;
+  margin: 0.04rem;
+}
+
+.VideoList .item .img {
+  position: relative;
+  text-align: center;
+}
+
+.VideoList .item .img img {
+  width: 3.7rem;
+  height: 2.5rem;
+  display: block;
+}
+
+.VideoList .item .time {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.5rem;
+  padding-left: 0.1rem;
+  color: #fff;
+  line-height: 0.5rem;
+  text-align: left;
+  background: rgba($color: #000000, $alpha: 0.3);
+}
+
+.VideoList .item .like {
+  position: absolute;
+  bottom: 2.1rem;
+  right: 0.2rem;
+  padding: 0.08rem;
+  font-size: 0.5rem;
+  color: pink;
+  background: rgba($color: #000, $alpha: 0.5);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.VideoList .item .liked {
+  background: rgba($color: #ec4e63, $alpha: 0.5);
+}
+
+.VideoList .item .title {
+  font-size: 0.2rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.VideoList .item .desc {
+  font-size: 0.3rem;
+  padding: 0 0.2rem;
+  color: #ccc;
+}
+
+.VideoList .time {
+  font-size: 13px;
+  color: #999;
+}
+
+.VideoList .image {
+  display: block;
+}
+
+.VideoList .rowImg {
+  height: 2.5rem;
+  width: 100%;
+}
+
+.actors-container {
+  flex-wrap: wrap;
+  font-size: 0;
+  /* margin-top: 0.8rem; */
+}
+
+.actors-container .actors-item {
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  height: 2.6rem;
+  padding-top: 0.2rem;
+}
+
+.actors-container .actors-item .name {
+  font-size: 0.25rem;
+  width: 100%;
+  /* height: 0.7rem; */
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.actors-container .avator {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* .actors-container .actors-item .btn{font-size: 0.25rem;    width: 1rem;
+    height: 0.6rem;    float: left;} */
+
+.pay-box {
+  margin-top: 1rem;
+  padding: 0 0.2rem;
+  padding-bottom: 0.5rem;
+}
+
+.pay-box ul li {
+  height: 1.5rem;
+  width: 100%;
+  margin-bottom: 0.2rem;
+  padding: 0.2rem;
+  border: 1px solid #FE7A94;
+  border-radius: 0.1rem;
+  font-size: 0.3rem;
+}
+
+.pay-box ul li .item-price {
+  font-weight: 600;
+  color: #FE7A94;
+}
+
+.pay-box ul li .package-money {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.pay-box ul li .package-info {
+  font-size: 0.2rem;
+}
+
+.pay-box .btn-box {
+  text-align: center;
+}
+
+.AppFooterAD {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+}
+
+.AppFooterAD img {
+  height: 1rem;
+  width: 100%;
+}
+
+.proImg {
+  width: 100%;
+  height: 2.3rem;
+}
+
+.isCollect {
+  color: #FE7A94 !important;
+}
+
+.player-box {
+  padding: 0 0.15rem;
+  padding-bottom: 0.3rem;
+  margin-top: 0.8rem;
+  font-size: 0.3rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.player-box .title {
+  padding: 0.1rem;
+}
+
+.player-box .videoConten {
+  height: 4rem;
+  position: relative;
+}
+
+.player-box .videoConten video {
+  height: 4rem;
+}
+
+.player-box .cover {
+  height: 4rem;
+  width: 100%;
+  position: absolute;
+  top: 0rem;
+}
+
+.player-box .cover .close {
+  height: 0.5rem;
+  line-height: 0.45rem;
+  width: 0.5rem;
+  display: inline-block;
+  position: absolute;
+  right: 19%;
+  top: 0%;
+  background: #eae5e5;
+  border: 0.02rem solid #9c9a9a;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 0.4rem;
+  z-index: 2;
+}
+
+.player-box .cover a {
+  position: relative;
+  height: 3rem;
+  width: 4rem;
+  margin: 0 auto;
+  position: relative;
+  left: 22%;
+  top: 5%;
+  display: inline-block;
+  z-index: 1;
+}
+
+.player-box .cover a img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.player-box .click {
+  margin-top: 0.11rem;
+  padding: 0.15rem 0;
+  background: #f1f1f1;
+}
+
+.player-box .click div {
+  display: inline;
+  margin-left: 0.3rem;
+}
+
+.player-box .click div span.iconfont {
+  font-size: 0.35rem;
+  color: #333;
+}
+
+.player-box .video-info {
+  margin-top: 0.11rem;
+  padding: 0.15rem 0.1rem;
+  font-size: 0.25rem;
+  background: #f1f1f1;
+  line-height: 0.6rem;
+}
+
+.player-box .comment {
+  margin-top: 0.2rem;
+}
+
+.player-box .comment .comment-box {
+  margin-bottom: 0.2rem;
+}
+
+.player-box .comment .submit-botton {
+  text-align: right;
+}
+
+.player-box .comment .comment-list {
+  margin-top: 0.2rem;
+  padding: 0 0.1rem;
+  background: #f1f1f1;
+}
+
+.player-box .comment .comment-list ul li {
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #fff;
+}
+
+.player-box .comment .comment-list ul li .commenter {
+  color: #999;
+}
+
+.player-box .comment .comment-list .comment-content {
+  padding-top: 0.1rem;
+}
+
+.bottomAd {
+  position: fixed;
+  bottom: 1rem;
+  width: 100%;
+  z-index: 10;
+}
+
+.bottomAd img {
+  height: 1.5rem;
+  width: 100%;
+}
+
+.tabHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  background: #fff;
+  z-index: 10;
+  transition: all 0.3s;
+  box-shadow: 0 2px 8px #fe7a94;
+}
+
+.tabHeader ul {
+  width: 100%;
+}
+
+.tabHeader ul li {
+  flex-grow: 1;
+  font-size: 0.25rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.tabHeader .active {
+  color: #fe7a94;
+}
+
+.goup {
+  height: 1rem;
+  line-height: 1rem;
+  width: 1rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 0.5rem;
+}
+
+.goup i {
+  font-size: 0.8rem;
+  color: #fe7a94;
+  font-weight: bold;
+}
+
+#app .el-loading-mask {
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 2000;
+}
+
+#app .el-loading-spinner {
+  top: 50%;
+  position: fixed;
+}
+
+.av .contains {
+  margin-top: 0.73rem;
+}
+
+#app .actors {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+#app .avTag {
+  margin-top: 0.8rem;
+  margin-bottom: 3rem;
+}
+#app .collect{margin-top: 0.7rem;margin-bottom: 3rem;}

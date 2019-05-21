@@ -1,0 +1,71 @@
+
+.VideoList {
+  margin-bottom: 0.2rem;
+  display: inline;
+  position: relative;
+  .item {
+    display: inline-block;
+    width: 48.5%;
+    margin: 0.04rem;
+    .img {
+      position: relative;
+      text-align: center;
+      img {
+        width: 3.7rem;
+        height:2.5rem;
+        display: block;
+      }
+      .time {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0.5rem;
+        padding-left: 0.1rem;
+        color: #fff;
+        line-height: 0.5rem;
+        text-align: left;
+        background: rgba($color: #000000, $alpha: 0.3);
+      }
+    }
+    .like {
+      position: absolute;
+      bottom: 2.1rem;
+      right: 0.2rem;
+      padding: 0.08rem;
+      font-size: 0.5rem;
+      color: pink;
+      background: rgba($color: #000, $alpha: 0.5);
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .liked {
+      background: rgba($color: #ec4e63, $alpha: 0.5);
+    }
+    .title {
+      font-size: 0.2rem;
+      height: 0.35rem;
+      line-height: 0.35rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .desc {
+      font-size: 0.3rem;
+      padding: 0 0.2rem;
+      color: #ccc;
+    }
+  }
+
+  .time {
+    font-size: 13px;
+    color: #999;
+  }
+  .image {
+    display: block;
+  }
+  .rowImg{
+    height: 2.5rem;
+    width: 100%;
+  }
+}
