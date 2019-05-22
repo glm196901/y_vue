@@ -1,6 +1,6 @@
 <template>
   <div class="ShowInfoBar">
-    
+
   </div>
 </template>
 
@@ -9,10 +9,7 @@ export default {
   name: 'ShowInfoBar',
   data () {
     return {
-<<<<<<< HEAD
-=======
       msg: ''
->>>>>>> 0052044d8bab95e19b31163d82b22f2729df15a5
     }
   }
 }
