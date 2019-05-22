@@ -6,7 +6,6 @@
     <WinInfo></WinInfo>
   </div>
 </template>
-
 <script>
 import Banner from './Banner/Banner.vue'
 import JumpArea from './JumpArea/JumpArea.vue'
@@ -27,8 +26,6 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 .Home{background: #F7F7F7}
 </style>
