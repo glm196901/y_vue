@@ -1,15 +1,15 @@
 <template>
-  <div class="WinInfo">
+  <div class="GameList">
     {{ msg }}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'WinInfo',
+  name: 'GameList',
   data () {
     return {
-      msg: 'its WinInfo'
+      msg: 'its GameList'
     }
   }
 }

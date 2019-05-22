@@ -1,6 +1,6 @@
 <template>
   <div class="ShowInfoBar">
-    {{ msg }}
+    
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'ShowInfoBar',
   data () {
     return {
-      msg: 'its ShowInfoBar'
+
     }
   }
 }
@@ -17,5 +17,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.ShowInfoBar{margin: 0 auto; width: 90%; height: 6vw; background: #fff; border-radius: 5vw; position: relative; top: -3vw;z-index: 1; }
 </style>
