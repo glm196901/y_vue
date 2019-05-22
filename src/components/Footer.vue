@@ -1,32 +1,24 @@
 <template>
-<div>
-    <div class="bottomAd" v-for="(item, index) in bottomAd" :key="index">
+<div class="footer">
+    <!-- <div class="bottomAd" v-for="(item, index) in bottomAd" :key="index">
         <a :href="item.url"  target="_blank" >
           <img :src="item.img_url"/>
         </a>
-    </div>
-    <div class="footer">
+    </div> -->
+    <!-- <div > -->
         <router-link to="/AV">
-            <span class="iconfont icon-iconshipin"></span>
-            AV
+            <span class="iconfont icon-youxi1"></span>
+            游戏
         </router-link>
         <router-link to='/Video'>
             <span class="iconfont icon-shipin"></span>
             视频
         </router-link>
-        <router-link to='/tag'>
-            <span class="iconfont icon-icon-"></span>
-            分类
-        </router-link>
-        <router-link to='/Collect'>
-            <span class="iconfont icon-shoucang2"></span>
-            收藏
-        </router-link>
         <router-link to='/user'>
             <span class="iconfont icon-wode"></span>
             我的
         </router-link>
-    </div>
+    <!-- </div> -->
 </div>
 </template>
 
@@ -34,27 +26,28 @@
 export default {
   data () {
     return {
-      selected: '/',
-      bottomAd:[]
+      // selected: '/',
+      // bottomAd:[]
     }
   },
-  watch: {
-    selected (newVal) {
-      this.$router.push(newVal)
-    }
-  },
+  // watch: {
+  //   selected (newVal) {
+  //     this.$router.push(newVal)
+  //   }
+  // },
   created () {
-      this.getbottomAd()
+      // this.getbottomAd()
+      console.log(this.$router)
   },
   methods:{
     //底部插入广告
-    getbottomAd(){
-      this.$http.get('/api/advert/list',{cate_code:'AppFooter'}).then(res => {
-        if (res.status === 0) {
-          this.bottomAd = res.data
-        }
-      })
-    },
+    // getbottomAd(){
+    //   this.$http.get('/api/advert/list',{cate_code:'AppFooter'}).then(res => {
+    //     if (res.status === 0) {
+    //       this.bottomAd = res.data
+    //     }
+    //   })
+    // },
   }
 }
 </script>
@@ -80,6 +73,9 @@ export default {
     font-size: 0.2rem;
     justify-content: center;
     align-items: center;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
     span {
         font-size: 0.5rem;
     }

@@ -31,6 +31,7 @@ export default {
     WinInfo,
     GameList,
     HeaderBar,
+    Footer,
   }
 }
 </script>

@@ -2,7 +2,7 @@
   <div class="JumpArea">
     <ul >
       <li v-for="(item, index) in JumpArea" :key="index" class="jumpList">
-        <i v-text="item.icon" ></i>
+        <i :class="item.icon" ></i>
         <div v-text="item.title"></div>
       </li>
     </ul>
@@ -14,10 +14,10 @@ export default {
   data () {
     return {
       JumpArea:[
-        {icon:"",title:"充值"},
-        {icon:"",title:"提现"},
-        {icon:"",title:"转换"},
-        {icon:"",title:"免费试玩"},
+        {icon:"iconfont icon-chongzhi",title:"充值"},
+        {icon:"iconfont icon-tixian",title:"提现"},
+        {icon:"iconfont icon-zhuanhuan",title:"转换"},
+        {icon:"iconfont icon-youxi2",title:"免费试玩"},
       ]
     }
   },
@@ -27,6 +27,6 @@ export default {
 }
 </script>
 <style scoped>
-.JumpArea{height: 8%; margin: 0 auto; width: 90%}
+.JumpArea{height: 8%; margin: 0 auto; width: 90%;background: #fff;border-radius: 2vw;}
 .jumpList{font-size: 2vw;float: left;  text-align: center; padding: 8% 8% }
 </style>
