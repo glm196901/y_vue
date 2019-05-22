@@ -9,13 +9,11 @@ export default {
   name: 'ShowInfoBar',
   data () {
     return {
-      msg: 'its ShowInfoBar'
+      msg: ''
     }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 </style>
