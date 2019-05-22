@@ -21,12 +21,8 @@ export default {
   name: 'Banner',
   data () {
     return {
-<<<<<<< HEAD
       msg: 'its banner',
       list:[{index:1},{index:2},{index:3},{index:4},{index:5}]
-=======
-      msg: ''
->>>>>>> 0052044d8bab95e19b31163d82b22f2729df15a5
     }
   },
   components:{
