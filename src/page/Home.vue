@@ -3,6 +3,7 @@
     <Banner></Banner>  
     <ShowInfoBar></ShowInfoBar>
     <JumpArea></JumpArea> 
+    <GameList></GameList>
     <WinInfo></WinInfo>
   </div>
 </template>
@@ -23,6 +24,7 @@ export default {
     ShowInfoBar,
     JumpArea,
     WinInfo,
+    GameList,
   }
 }
 </script>
