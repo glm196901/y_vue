@@ -1,18 +1,22 @@
 <template>
   <div class="Home">
-    <Banner></Banner>  
+    <HeaderBar/>
+    <Banner></Banner>
     <ShowInfoBar></ShowInfoBar>
-    <JumpArea></JumpArea> 
+    <JumpArea></JumpArea>
     <GameList></GameList>
     <WinInfo></WinInfo>
+    <Footer/>
   </div>
 </template>
 <script>
-import Banner from './Banner/Banner.vue'
-import JumpArea from './JumpArea/JumpArea.vue'
-import ShowInfoBar from './ShowInfoBar/ShowInfoBar.vue'
-import WinInfo from './WinInfo/WinInfo.vue'
-import GameList from './GameList/GameList.vue'
+import HeaderBar from '@/components/HeaderBar.vue'//头部
+import Footer from '@/components/Footer.vue'//脚部
+import Banner from '@/components/Banner.vue'//轮播图
+import JumpArea from '@/components/JumpArea.vue'
+import ShowInfoBar from '@/components/ShowInfoBar.vue'
+import WinInfo from '@/components/WinInfo.vue'
+import GameList from '@/components/GameList.vue'//
 export default {
   name: 'Home',
   data () {
@@ -25,6 +29,7 @@ export default {
     JumpArea,
     WinInfo,
     GameList,
+    HeaderBar,
   }
 }
 </script>
