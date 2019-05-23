@@ -6,8 +6,10 @@
       </p>
       <ul>
         <li @click="gotogame(item,index)" v-for="(item,index) in list">
-          <p class="info" v-text="item.name"></p>
-          <p class="money"></p>
+          <div class="info">
+            <p><span v-text="item.name" class="span"></span></p>
+            <p><span class="money" v-text="'喜中'+item.money"></span></p>
+          </div>
           <img src="" alt="">
         </li>
       </ul>
@@ -20,12 +22,14 @@ export default {
   data () {
     return {
       list:[
-        {name:"斗地主",img_src:"/img/1.png"},
-        {name:"斗地主",img_src:"/img/1.png"},
-        {name:"斗地主",img_src:"/img/1.png"},
-        {name:"斗地主",img_src:"/img/1.png"},
-        {name:"斗地主",img_src:"/img/1.png"},
-        {name:"斗地主",img_src:"/img/1.png"},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
+        {name:"玩家kt小妮妮在开元斗地主",img_src:"/img/ddz.png",money:9999,},
       ],
     }
   },

@@ -27,6 +27,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.nav{height: 18vw; margin: 0 auto; width: 90%;background: #fff;border-radius: 2vw;}
-.navlist{font-size: 2vw;float: left;  text-align: center; padding: 8% 8% }
+
 </style>

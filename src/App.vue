@@ -244,6 +244,10 @@ table tr td input{height: 0.9rem;outline: none;border: none;font-size: 0.38rem;w
 .goback span{height: 1rem;line-height: 1rem;display: inline-block;}
 .goback .iconfont{position: relative;top: 0.04rem;}
 /* 提现样式结束 */
+/* 导航条 */
+.nav{height: 18vw; margin: 0 auto; width: 90%;background: #fff;border-radius: 2vw;}
+.navlist{font-size: 2vw;float: left;  text-align: center; padding: 8% 8% }
+/* 导航条 */
 /* 游戏列表,滑动导航条样式 */
 .list .titlelist .active{color:#FF0556}
 .list .titlelist,.result .titlelist{height: 10vw;overflow: -webkit-paged-x;font-size: 0;width: 100%;}
@@ -252,10 +256,11 @@ table tr td input{height: 0.9rem;outline: none;border: none;font-size: 0.38rem;w
 .list .titlelist ul li,.result .titlelist ul li{display: inline-block;width: 22vw;text-align: center;height:12vw;padding-top: 0.2rem;font-size: 0.3rem;color: #000;}
 .list .titlelist .border_b{border-bottom: 0.5vw solid #FF0556;margin: 0.1rem auto;}
 .list .gamelist li{width: 20vw;height: 20vw;display: inline-block;padding: 2vw;}
-.result .titlelist ul li{width: 55vw;height: 27vw;display: inline-block;padding-top:0;margin:3vw;background:#6887F9;border-radius: 2vw;}
+.result .titlelist ul li{width: 55vw;height: 27vw;display: inline-block;padding-top:0;margin:3vw;background: linear-gradient(to top, #6887F9 , #A9BCFA);border-radius: 2vw;}
 .result .titlelist ul{height:100%;}
 .result .titlelist{height: 33vw;}
-.result .titlelist p{}
 .result .titlelist .title{}
+.result .info{color: #fff;width: 33vw;height: 27vw;display: inline-block;float: left;padding-left: 2vw;padding-top: 2vw;}
+.result .info p{white-space: normal;text-align: left;}
 /* 游戏列表,滑动导航条样式 */
 </style>
