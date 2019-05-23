@@ -1,7 +1,7 @@
 <template>
-  <div class="JumpArea">
+  <div class="nav">
     <ul >
-      <li v-for="(item, index) in JumpArea" :key="index" class="jumpList">
+      <li v-for="(item, index) in JumpArea" :key="index" class="navlist">
         <i :class="item.icon" ></i>
         <div v-text="item.title"></div>
       </li>
@@ -27,6 +27,6 @@ export default {
 }
 </script>
 <style scoped>
-.JumpArea{height: 8%; margin: 0 auto; width: 90%;background: #fff;border-radius: 2vw;}
-.jumpList{font-size: 2vw;float: left;  text-align: center; padding: 8% 8% }
+.nav{height: 18vw; margin: 0 auto; width: 90%;background: #fff;border-radius: 2vw;}
+.navlist{font-size: 2vw;float: left;  text-align: center; padding: 8% 8% }
 </style>

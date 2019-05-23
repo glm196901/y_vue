@@ -23,7 +23,7 @@ body, p, form, input, button, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6 {
   list-style: none;
   overflow-x: hidden
 }
-
+ul{display: inline;}
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
@@ -114,4 +114,7 @@ body>* {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
+}
+.iconfont{
+  display: inline-block;
 }

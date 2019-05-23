@@ -37,7 +37,7 @@ export default {
   // },
   created () {
       // this.getbottomAd()
-      console.log(this.$router)
+      // console.log(this.$router)
   },
   methods:{
     //底部插入广告

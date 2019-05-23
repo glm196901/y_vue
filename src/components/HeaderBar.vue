@@ -43,13 +43,13 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 0.8rem;
-  line-height: 0.8rem;
+  height:11vw;
+  line-height:11vw;
   text-align: center;
-  font-size: 0.3rem;
+  font-size: 3vw;
   box-shadow: -1px 0px 1px #ccc;
   background: #000;
-  z-index: 1000;
+  z-index: 10;
   .iconfont.icon-jiantou {
     font-size: 0.3rem;
     transform: rotate(90deg);
