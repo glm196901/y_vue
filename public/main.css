@@ -115,6 +115,5 @@ body>* {
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
-.iconfont{
-  display: inline-block;
-}
+#app{position: absolute;height: 100%;width: 100%;}
+.iconfont{display: inline-block;}

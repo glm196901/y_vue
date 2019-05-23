@@ -7,7 +7,6 @@
      </div>
   </div>
 </template>
-
 <script>
 export default {//滚动条
   name: 'ShowInfoBar',
@@ -43,9 +42,9 @@ export default {//滚动条
     height: 7vw;
     line-height: 7vw;
     width: 90%;
-float: right;
-font-size:3vw;
-margin-right: 2vw;
+    float: right;
+    font-size:3vw;
+    margin-right: 2vw;
   }
 }
 </style>
