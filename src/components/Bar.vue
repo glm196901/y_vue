@@ -20,12 +20,16 @@ export default {//滚动条
 <style lang="scss" scoped>
 .ShowInfoBar{margin: 0 auto; width: 90%; height: 6vw; background: #fff; border-radius: 5vw; position: relative; top: -3vw;z-index: 1; }
 .Bar{
+    position: relative;
+    top: -3vw;
+    z-index: 1;
     margin: 0 auto;
     width: 90%;
     background-color: #fff;
     color: #000;
     border-radius: 5vw;
     height: 6vw;
+
   .icon{
     width: 7vw;
     height: 7vw;
@@ -45,6 +49,7 @@ export default {//滚动条
     float: right;
     font-size:3vw;
     margin-right: 2vw;
+    
   }
 }
 </style>

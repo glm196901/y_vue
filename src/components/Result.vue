@@ -54,5 +54,5 @@ export default {
 .winInfo{width:30vw;}    
 .redBar{width:1.5vw;height: 8vw;background: red; margin-left: 5vw;float: left;}
 .title{ font-size: 4vw;margin-left: 10vw;}
-.titlelist{margin-left: 2vw}
+// .titlelist{margin-left: 2vw}
 </style>

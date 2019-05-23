@@ -27,5 +27,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
+.nav{margin-top: -1vw}
 </style>
