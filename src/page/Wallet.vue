@@ -9,7 +9,7 @@
 import HeaderBar from '@/components/HeaderBar.vue'//头部
 import Footer from '@/components/Footer.vue'//脚部
 
-export default {
+export default {//钱包页
   name: 'Home',
   data () {
     return {

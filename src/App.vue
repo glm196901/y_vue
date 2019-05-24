@@ -62,7 +62,7 @@ li{list-style: none;}
 .serve li a{font-size: 0.25rem;}
 .serve li{font-size: 0.25rem;}
 .serve .go{ color:red;font-size: 0.25rem;}
-.list{padding:0rem 0.15rem;font-size: 0;background: #fff;margin-top: 0.1rem;}
+.list{font-size: 0;background: #fff;margin-top: 0rem;}
 .titlee li{display: inline-block;width:1.7rem;text-align: center;height:0.7rem;padding-top: 0.2rem;font-size: 0.3rem;color:#000;}
 .titlee li span{display: inline-block;}
 .titlee ul{white-space: nowrap; overflow-x: auto;height: 0.8rem;}
@@ -235,32 +235,41 @@ table tr td input{height: 0.9rem;outline: none;border: none;font-size: 0.38rem;w
 .copyAlert .centen{background: #fff;position: relative;top: -1rem;border-radius: 0.1rem;}
 .copyAlert .centen .ShowBtnGoGame{position: relative;bottom: 0;width: 100%;font-size: 0;height: 1.5rem;}
 .copyAlert .centen .ShowBtnGoGame button{width: 37%;border-radius: 0;height: 1rem;margin: 0.2rem;border-radius: 0.1rem;border: 0.05rem solid #ff7bac;background: #fff;}
-/* .copyAlert .container{width: 8rem;margin: 44% auto;} */
 .copyAlert .container{width: 6rem;margin: 77% auto;}
 .titleText{color:#000;height: 2rem;line-height: 2rem;width: 5rem;margin: 0 auto;height: 3rem;line-height: 3rem;}
-/* .titleText{color:#000;height: 2rem;line-height: 2rem;width: 5rem;margin: 0 auto;} */
 .ShowBtn{position: absolute;bottom: 0.3rem;width: 100%;font-size: 0;}
 .goback{height: 1rem;line-height: 1rem;background: #fff;color: #ff7bac;margin-bottom: 0.15rem;padding-left: 0.3rem;}
 .goback span{height: 1rem;line-height: 1rem;display: inline-block;}
 .goback .iconfont{position: relative;top: 0.04rem;}
 /* 提现样式结束 */
 /* 导航条 */
-.nav{height: 18vw; margin: 0 auto; width: 90%;background: #fff;border-radius: 2vw;}
-.navlist{font-size: 2vw;float: left;  text-align: center; padding: 8% 8% }
+.nav{height: 18vw; margin: 0 auto; width: 90%;background: #fff;border-radius: 2vw;position: relative;top: -2vw;}
+.navlist{font-size: 2vw;float: left;  text-align: center; width:25%;height: 18vw;line-height: 18vw;}
+.navlist .title{text-align: center; width:100%;height: 4vw;line-height: 4vw;}
+.navlist i{text-align: center; width:10vw;height: 10vw;line-height: 10vw;display: block;margin: 0 auto;}
 /* 导航条 */
 /* 游戏列表,滑动导航条样式 */
-.list .titlelist .active{color:#FF0556}
-.list .titlelist,.result .titlelist{height: 10vw;overflow: -webkit-paged-x;font-size: 0;width: 100%;}
-.list .titlelist ul,.result .titlelist ul{white-space: nowrap;overflow-x: auto;height: 0.8rem;display: block;}
-.list .titlelist ul::-webkit-scrollbar ,.result .titlelist ul::-webkit-scrollbar { width:0; height:0; display: none; }
-.list .titlelist ul li,.result .titlelist ul li{display: inline-block;width: 22vw;text-align: center;height:12vw;padding-top: 0.2rem;font-size: 0.3rem;color: #000;}
-.list .titlelist .border_b{border-bottom: 0.5vw solid #FF0556;margin: 0.1rem auto;}
-.list .gamelist li{width: 20vw;height: 20vw;display: inline-block;padding: 2vw;}
-.result .titlelist ul li{width: 55vw;height: 27vw;display: inline-block;padding-top:0;margin:3vw;background: linear-gradient(to top, #6887F9 , #A9BCFA);border-radius: 2vw;}
-.result .titlelist ul{height:100%;}
+.list_home{font-size: 0;background: #fff;margin-top: 0rem;}
+.list_home .titlelist .active p{color:#FF0556;}
+.list_home .titlelist .active{border-bottom: 0.5vw solid #ff0556;}
+.list_home .titlelist,.result .titlelist{height: 10vw;overflow: -webkit-paged-x;font-size: 0;width: 100%;}
+.list_home .titlelist ul,.result .titlelist ul{white-space: nowrap;overflow-x: auto;height: 0.8rem;}
+.list_home .titlelist ul::-webkit-scrollbar ,.result .titlelist ul::-webkit-scrollbar{width:0; height:0;display: none;}
+.list_home .titlelist ul li,.result .titlelist ul li{display: inline-block;width: 22vw;text-align: center;height:8vw;padding-top: 0rem;font-size: 0.3rem;color: #000;}
+.list_home .titlelist ul li{border-bottom: 0.5vw solid #eee;margin: 0.1rem auto;}
+.list_home .gamelist li{width: 25vw;height: 25vw;display: inline-block;margin: 3vw 3vw;text-align: center;background: #F4F4F4;border-radius: 2vw;}
+.list_home .gamelist li img{width: 15vw;height: 15vw;margin-top: 3vw;}
+.list_home .gamelist li span{width: 15vw;height: 4vw;display: inline-block;color: #000;font-size: 3vw;padding-top: 1vw;}
+.list_home .gamelist{display: inline-block;text-align: center;}
+.result .titlelist ul li{width: 55vw;height: 23vw;display: inline-block;padding-top:0;margin:3vw;background: linear-gradient(to top, #6887F9 , #A9BCFA);border-radius: 2vw;}
+.result .titlelist ul li img{height:15vw;margin-top: 4vw;}
+.result .titlelist ul{height:100%;display: block;}
 .result .titlelist{height: 33vw;}
 .result .titlelist .title{}
-.result .info{color: #fff;width: 33vw;height: 27vw;display: inline-block;float: left;padding-left: 2vw;padding-top: 2vw;}
+.result .info{color: #fff;width: 33vw;display: inline-block;float: left;padding-left: 2vw;padding-top: 2vw;}
 .result .info p{white-space: normal;text-align: left;}
+.result .title{font-size: 4vw;margin-left: 5vw;border-left: 1vw solid red;padding-left: 2vw;}
+.result{margin-top: 1.5vw;background: #fff;padding-top: 1.5vw;padding-bottom: 1.5vw;margin-bottom: 12vw;}
+.result .winInfo{width:30vw;}
 /* 游戏列表,滑动导航条样式 */
 </style>

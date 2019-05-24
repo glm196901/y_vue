@@ -29,7 +29,7 @@ export default {//滚动条
     color: #000;
     border-radius: 5vw;
     height: 6vw;
-
+    margin-bottom: 2vw;
   .icon{
     width: 7vw;
     height: 7vw;
@@ -49,7 +49,7 @@ export default {//滚动条
     float: right;
     font-size:3vw;
     margin-right: 2vw;
-    
+
   }
 }
 </style>
